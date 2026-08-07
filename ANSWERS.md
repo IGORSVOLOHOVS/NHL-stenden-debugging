@@ -56,7 +56,7 @@
 
 # PC characteristics
 
-Device Name	DESKTOP-5JBKUEH
+Device Name	(omitted)
 Processor	Genuine Intel(R) CPU 0000 @ 2.60GHz   3.11 GHz
 Installed RAM	32.0 GB (31.8 GB usable)
 Storage	3.64 TB HDD ST4000VX016-3CV104, 466 GB SSD Samsung SSD 980 500GB
