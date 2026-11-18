@@ -5,6 +5,26 @@ commit `4483888` (2026-11-08). It describes the behaviour the code shows; it
 records no intent beyond what the files state. The notebook path `debugging_solution.ipynb` is
 shortened to `nb` below, and `nb:N` is line N of the notebook's JSON file.
 
+<!-- jira-sync:start -->
+Jira: KAN-99
+
+## Tasks
+
+This list is one ticket in Jira project KAN, [KAN-99](https://igorsvolohovs.atlassian.net/browse/KAN-99). Each line is a checkbox there: tick it in Jira and the sync ticks it here; add a checkbox there and it is appended here. Done items are the features described in section 3; open items are what the project declares but the code does not do yet.
+
+- [x] Exercise 1: fruit by index (section 3) <!-- spec-exercise-1-fruit-by-index -->
+- [x] Exercise 2: swap bounding-box coordinates (section 3) <!-- spec-exercise-2-swap-bounding-box-coordinates -->
+- [x] Exercise 3: precision-recall plot (section 3) <!-- spec-exercise-3-precision-recall-plot -->
+- [x] Exercise 4: GAN on MNIST (section 3) <!-- spec-exercise-4-gan-on-mnist -->
+- [x] Repository standard (section 3) <!-- spec-repository-standard -->
+- [ ] `nb:652` and `nb:701` say that the code "produces the expected results at first attempt at about 50 epochs". (declared, not implemented) <!-- spec-nb-652-and-nb-701-say-that-the-code-produces-the-e -->
+- [ ] The docstring examples (`>>>`, for example `nb:381-396` and `nb:720`) give no expected output, and no doctest runner is configured. (declared, not implemented) <!-- spec-the-docstring-examples-for-example-nb-381-396-and- -->
+- [ ] `ANSWERS.md:10` proposes `SortedSet` from `sortedcontainers` as an alternative fix. (declared, not implemented) <!-- spec-answers-md-10-proposes-sortedset-from-sortedcontai -->
+- [ ] `README.md:13` says `debugging_solution.pdf` is "the same notebook printed". (declared, not implemented) <!-- spec-readme-md-13-says-debuggingsolution-pdf-is-the-sam -->
+- [ ] `README.md:18-19` says exercise 3 does not run from a fresh clone. (declared, not implemented) <!-- spec-readme-md-18-19-says-exercise-3-does-not-run-from- -->
+
+<!-- jira-sync:end -->
+
 ## 1. Purpose and scope
 
 The repository holds a solved debugging assignment (`README.md:3-5`): four Python
